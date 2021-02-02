@@ -29,4 +29,3 @@ jobs:
     - name: start
       run: |
         python anoda1.py
-        python anoda2.py
