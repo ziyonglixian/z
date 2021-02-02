@@ -46,6 +46,6 @@ def q():
     print(res3)
 
 
-for i in range(200):
+for i in range(1):
     t = threading.Thread(target=q)
     t.start()
