@@ -44,6 +44,6 @@ def q():
     url3 = "http://txt2.qiyehuangyewang.com:2974/home.php?mod=task&do=draw&id=2"
 
 
-for i in range(200):
+for i in range(60):
     t = threading.Thread(target=q)
     t.start()
