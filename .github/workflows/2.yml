@@ -1,6 +1,7 @@
 name: 1
 
-on: 
+on:
+  workflow_dispatch: 
   push:
     paths: 
       - '**'
