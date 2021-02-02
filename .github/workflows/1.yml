@@ -28,4 +28,5 @@ jobs:
         pip install -r requirements.txt
     - name: start
       run: |
-        python **.py
+        python anoda1.py
+        python anoda2.py
